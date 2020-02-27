@@ -135,3 +135,24 @@ input[type="checkbox"]+label span {}
 }
 
 .signin:hover {}
+
+
+/* LANDING PAGE */
+
+.bg-landing {
+    background: url("../image/bg-landing.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#info-landing {
+    padding-top: 20%;
+    padding-left: 30%;
+    position: relative;
+}
+
+.info-landing-last-child {
+    position: absolute;
+    right: 0;
+}
