@@ -148,11 +148,78 @@ input[type="checkbox"]+label span {}
 
 #info-landing {
     padding-top: 20%;
-    padding-left: 30%;
+    padding-left: 10%;
     position: relative;
+    color: white;
+}
+
+#landing-title,
+#landing-description {
+    width: 400px;
+}
+
+#landing-title h1 {
+    font-size: 80px !important;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#landing-title ul {
+    padding: 50px 0 0 5px;
+}
+
+#landing-title ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#landing-title ul li a {
+    color: white;
+    width: 150px;
 }
 
 .info-landing-last-child {
     position: absolute;
     right: 0;
+}
+
+.info-landing-last-child ul li {
+    display: block;
+    padding: 20px 50px;
+}
+
+#landing-description a {
+    color: white;
+    padding-bottom: 50px;
+}
+
+#landing-description a img {
+    padding-right: 20px;
+}
+
+#footer-section {
+    position: absolute;
+    bottom: 0;
+}
+
+#footer-section * {
+    color: white;
+}
+
+#footer-section table thead {
+    font-size: 12px;
+}
+
+#footer-section table tbody {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#footer-section table {
+    border-spacing: 30px 30px;
+}
+
+.padding-80 {
+    padding-bottom: 80px;
 }
