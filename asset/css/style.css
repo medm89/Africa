@@ -140,10 +140,22 @@ input[type="checkbox"]+label span {}
 /* LANDING PAGE */
 
 .bg-landing {
-    background: url("../image/bg-landing.png");
+    background: url("../image/bg-landing.png") no-repeat center center scroll;
     height: 100vh;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.general-menu {
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 1%;
 }
 
 #info-landing {
